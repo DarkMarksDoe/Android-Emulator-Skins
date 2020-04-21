@@ -1,0 +1,31 @@
+parts {
+  device {
+    display {
+      width 1080
+      height 1920
+      x 0
+      y 0
+    }
+  }
+  portrait {
+    background {
+      image moto.webp
+    }
+  }
+}
+layouts {
+  portrait {
+    width 1500
+    height 2416
+    part1 {
+      name portrait
+      x 0
+      y 0
+    }
+    part2 {
+      name device
+      x 200
+      y 270
+    }
+  }
+}
